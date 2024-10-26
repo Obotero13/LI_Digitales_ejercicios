@@ -1,1 +1,1 @@
-# LIA_Digitales_ejercicios
+# LI_Digitales_ejercicios
