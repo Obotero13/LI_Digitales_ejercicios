@@ -1,0 +1,37 @@
+
+# Archivo y carpetas que se deben ignorar al actualizar el repositorio en GitHub
+
+# Ejemplos:
+# Ignorar todos los archivos que terminen en .log --> *.log
+# Ignorar los archivos excepto el nombre.log --> !nombre.log
+# Ignorar los archivos terminados en .txt dentro de la carpeta doc (pero no sus subdirectorios) --> doc/*.txt
+# Ignorar todos los archivos terminados en .pdf dentro de la carpeta doc y sus subdirectorios --> doc/**/*.pdf
+
+# Ignora todos los archivos con extensión: 
+*.workspace
+*.PWI
+*.DBK
+
+# Ignora todos los archivos dentro de la carpeta Unidad_2 que tengan extensiones:
+Unidad_2/*.PWI
+Unidad_2/*.DBK
+Unidad_2/Project Backups
+Unidad_3/*.PWI
+Unidad_3/*.DBK
+Unidad_3/Project Backups
+Unidad_4/*.PWI
+Unidad_4/*.DBK
+Unidad_4/Project Backups
+Unidad_5/*.PWI
+Unidad_5/*.DBK
+Unidad_5/Project Backups
+Unidad_6/*.PWI
+Unidad_6/*.DBK
+Unidad_6/Project Backups
+
+# Ignora el archivo puntual:
+# URL_MODELOS_3D.TXT
+
+# Ignora la carpeta en la raíz:
+/Project Backups
+
