@@ -7,31 +7,40 @@
 # Ignorar los archivos terminados en .txt dentro de la carpeta doc (pero no sus subdirectorios) --> doc/*.txt
 # Ignorar todos los archivos terminados en .pdf dentro de la carpeta doc y sus subdirectorios --> doc/**/*.pdf
 
+# Ignora la carpeta en la raíz:
+/Project Backups
+
 # Ignora todos los archivos con extensión: 
 *.workspace
 *.PWI
 *.DBK
 
-# Ignora todos los archivos dentro de la carpeta Unidad_2 que tengan extensiones:
-Unidad_2/*.PWI
-Unidad_2/*.DBK
-Unidad_2/Project Backups
-Unidad_3/*.PWI
-Unidad_3/*.DBK
-Unidad_3/Project Backups
-Unidad_4/*.PWI
-Unidad_4/*.DBK
-Unidad_4/Project Backups
-Unidad_5/*.PWI
-Unidad_5/*.DBK
-Unidad_5/Project Backups
-Unidad_6/*.PWI
-Unidad_6/*.DBK
-Unidad_6/Project Backups
+# Ignora todos los archivos dentro de la carpeta Volumen 1 que tengan extensiones:
+Volumen_1/Project Backups
+Volumen_1/Capitulo_3/*.PWI
+Volumen_1/Capitulo_3/*.DBK
+Volumen_1/Project Backups
+Volumen_1/Capitulo_4/*.PWI
+Volumen_1/Capitulo_4/*.DBK
+Volumen_1/Project Backups
+Volumen_1/Capitulo_5/*.PWI
+Volumen_1/Capitulo_5/*.DBK
+Volumen_1/Project Backups
+Volumen_1/Capitulo_6/*.PWI
+Volumen_1/Capitulo_6/*.DBK
+
+# Ignora todos los archivos dentro de la carpeta Volumen 2 que tengan extensiones:
+Volumen_2/Project Backups
+Volumen_2/Capitulo_1/*.PWI
+Volumen_2/Capitulo_1/*.DBK
+Volumen_2/Project Backups
+Volumen_2/Capitulo_2/*.PWI
+Volumen_2/Capitulo_2/*.DBK
+Volumen_2/Project Backups
+Volumen_2/Capitulo_3/*.PWI
+Volumen_2/Capitulo_3/*.DBK
 
 # Ignora el archivo puntual:
-# URL_MODELOS_3D.TXT
+# archivo.TXT
 
-# Ignora la carpeta en la raíz:
-/Project Backups
 
